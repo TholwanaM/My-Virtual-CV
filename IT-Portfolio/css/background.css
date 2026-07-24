@@ -1,0 +1,68 @@
+.background{
+    position:fixed;
+    inset:0;
+    overflow:hidden;
+    z-index:-10;
+    background:#0b0b0d;
+}
+
+.blob{
+    position:absolute;
+    border-radius:50%;
+    filter:blur(120px);
+    opacity:.45;
+    animation:blobFloat 18s ease-in-out infinite;
+}
+
+.blob1{
+    width:650px;
+    height:650px;
+    background:#D9672F;
+    left:-180px;
+    top:-100px;
+}
+
+.blob2{
+    width:700px;
+    height:700px;
+    background:#B84E3A;
+    right:-220px;
+    top:40%;
+    animation-duration:24s;
+}
+
+.blob3{
+    width:520px;
+    height:520px;
+    background:#C89D54;
+    bottom:-150px;
+    left:40%;
+    animation-duration:30s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

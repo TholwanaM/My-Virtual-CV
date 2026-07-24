@@ -1,0 +1,15 @@
+:root{
+    --background:#0D0D0F;
+    --surface:rgba(255,255,255,.06);
+    --glass:rgba(255,255,255,.08);
+    --text:#F8F6F2;
+    --secondary:#BDB5AD;
+    --orange:#D9672F;
+    --terracotta:#B84E3A;
+    --red:#8D3434;
+    --gold:#C79D54;
+    --olive:#667055;
+    --cream:#F3E8DB;
+    --shadow:0 30px 60px rgba(0,0,0,.35);
+    --radius:28px;
+}

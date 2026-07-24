@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:"Manrope",sans-serif;
+    background:var(--background);
+    color:var(--text);
+    overflow-x:hidden;
+    min-height:100vh;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+button{
+    font-family:inherit;
+    cursor:pointer;
+}
+
+section{
+    min-height:100vh;
+    padding:120px 8%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
