@@ -202,7 +202,7 @@ transform:translateY(8px) rotate(45deg);
     top:25px;
     left:50%;
     transform:translateX(-50%);
-    width:min(92%,1400px);
+    width:min(99%,400px);
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -567,3 +567,18 @@ footer{
     padding-left:40px;
     color:var(--orange);
 }
+
+#certificateOverlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.75);
+    backdrop-filter:blur(30px);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    opacity:0;
+    pointer-events:none;
+    transition:.6s;
+    z-index:9999;
+}
+
