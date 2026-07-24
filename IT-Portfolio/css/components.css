@@ -206,7 +206,7 @@ transform:translateY(8px) rotate(45deg);
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:18px 30px;
+    padding:6px 30px;
     z-index:999;
     backdrop-filter:blur(25px);
     background:rgba(255,255,255,.04);
@@ -484,7 +484,7 @@ transform:translateY(8px) rotate(45deg);
 }
 
 .loader-progress{
-    height:100%;
+    height:170%;
     width:0;
     background:linear-gradient(90deg, var(--orange), var(--gold));
     animation:loading 2.5s forwards;
@@ -496,7 +496,7 @@ transform:translateY(8px) rotate(45deg);
     left:0;
     height:3px;
     background:linear-gradient(90deg, var(--orange), var(--red));
-    width:0;
+    width:500;
     z-index:99999;
 }
 
