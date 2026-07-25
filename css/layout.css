@@ -455,7 +455,48 @@
 }
 
 
+.certficate-card{
+    transform-style:preserve-3d;
+    perspective:1200px;
+}
 
+#contactinfo{
+    padding-top:180px;
+    padding-bottom:180px;
+}
+
+.contact-info{
+    display:flex;
+    gap:22px;
+    margin-top:50px;
+    flex-wrap:wrap;
+}
+
+.contact-info{
+    padding:28px;
+    min-width:160px;
+    border-radius:30px;
+    background:linear-gradient( 135deg,rgba(255,255,255,.08),rgba(255,255,255,.02));
+    backdrop-filter:blur(25px);
+    border:1px solid rgba(255,255,255,.12);
+    transition:.4s;
+}
+
+.contact-info:hover{
+    transform:translateY(-8px);
+    border-color:rgba(217,103,47,.5);
+}
+
+.contact-info p{
+    font-size:2rem;
+    font-family:"Cormorant Garamond",serif;
+    margin-bottom:12px;
+    background:linear-gradient(90deg, var(--orange), var(--gold), var(--red));
+    background-size:300%;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    animation:titleGradient 10s linear infinite;
+}
 
 
 
