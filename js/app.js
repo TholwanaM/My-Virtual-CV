@@ -6,7 +6,8 @@ window.addEventListener("load", () => {
     window.scrollTo(0, 0);
 });
 
-
+const progressBar = document.getElementById("progressBar");
+const mouseGlow = document.querySelector(".mouse-glow");
 
 let lastScroll=0;
 
@@ -102,7 +103,6 @@ document.querySelectorAll(".project-card").forEach(card=>{
         card.style.transform="";
     });
 });
-
 
 
 

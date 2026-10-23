@@ -1,9 +1,26 @@
 @media(max-width:768px){
-    .hero-title{
-        font-size:9.5rem;
-        color: bisque;
-        opacity: calc(54);
+    .menuGlass{
+        width:min(430px,100%);
+        padding:100px 32px;
     }
+
+    .project-modal{
+        width:calc(100% - 32px);
+        height:auto;
+        max-height:calc(100vh - 32px);
+        grid-template-columns:minmax(0,1fr);
+        gap:24px;
+        padding:72px 24px 24px;
+        border-radius:24px;
+    }
+
+    .close-project{
+        top:16px;
+        right:16px;
+        width:48px;
+        height:48px;
+    }
+
     .hero-description{
         font-size:1rem;
     }
@@ -15,14 +32,13 @@
     .primary-btn,
 
     .secondary-btn{
-        width:260px;
+        width:min(260px,100%);
         text-align:center;
     }
 }
 
 @media(max-width:1000px){
     #about{
-        grid-template-columns:1fr;
         text-align:center;
     }
     .about-buttons{
@@ -32,8 +48,7 @@
         justify-content:center;
     }
     .portrait-container{
-        width:340px;
-        height:430p;
+        width:min(100%,340px);
     }
 }
 
@@ -70,7 +85,7 @@
 @media(max-width:1000px){
     .project-card,
     .reverse{
-        grid-template-columns:1fr;
+        grid-template-columns:minmax(0,1fr);
     }
     
     .reverse .project-image,
@@ -105,9 +120,6 @@
         text-align:center;
     }
 }
-
-
-
 
 
 
